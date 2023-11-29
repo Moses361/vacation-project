@@ -1,0 +1,74 @@
+/* Reset default margin and padding for the entire page */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(images/vacation.jpg); */
+    background-color: #cccccc;
+    background-repeat: y;
+    background-attachment: fixed;
+    background-attachment:scroll;
+    /* background-position: 100px 200px */
+    /* color: green; */
+}
+/* a {
+    background-color: peachpuff;
+    /* color: blueviolet; */
+    /* font-size: 2em; */
+  */
+
+ a:hover {
+    background-color: peachpuff;
+    color: green;
+    font-size: 2em;}
+
+h1 {
+    color: #36C;
+    font-weight: normal;
+    text-decoration-line: underline;
+    /* letter-spacing: .4em; */
+    margin-bottom: 1em;
+    /* text-transform: ; */
+ }
+
+/* Style the container to create a split layout */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Style the image side */
+.image {
+    flex: 1;
+    padding: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the description side */
+.description {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the headings and paragraphs */
+h1, h2, p {
+    margin-bottom: 20px;
+}
+
+p{
+    border: 0 solid blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    border:1px solid red; height:100px;
+}
